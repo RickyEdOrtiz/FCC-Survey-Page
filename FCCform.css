@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(rgba(0, 255, 0, 0.705), rgba(0, 255, 0, 0.705)), url(https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/adult-business-coffee-1181244__1_/original.jpg?1560285775);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+#title {
+    text-align: center;
+    color: white;
+}
+
+#description {
+    text-align: center;
+    color: white;
+}
+
+#container {
+    background: linear-gradient(rgba(0, 128, 0, 0.705), rgba(0, 128, 0, 0.705));
+    width: 100%;
+    margin-top: 3.125rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 750px;
+    border-radius: 5px;
+    
+}
+
+.formGroup {
+    padding: 15px 0 0 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;  
+    padding-left: 7px;
+}
+
+#name {
+    padding-top: 20px;
+    
+}
+
+#name-label {
+    width: 650px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#email-label {
+    width: 650px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#number-label {
+    width: 650px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#dropdown {
+    width: 655px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 7px;
+}
+
+
+#feature {
+    width: 655px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-top: 7px;
+}
+
+textarea {
+    min-height: 120px;
+    width: 650px;
+    padding: 0.625rem;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    border: none;
+    width: 675px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 40px;
+    margin-right: auto;
+    border-radius: 3px;
+    background-color: violet;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
